@@ -152,6 +152,7 @@ def MainFunction(myString):
     example = "*".join(SliceAction)
     return example, myTime
 
+
 state = 'Всё чётко)'
 ResMainFunction = MainFunction(myString)
 if len(ResMainFunction[0]) == 0:
